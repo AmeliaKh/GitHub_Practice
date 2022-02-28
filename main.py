@@ -56,4 +56,4 @@ class MathSolver():
         # Allegra to complete
         ######################################################
 
-        return a^2
+        return a*a
