@@ -23,10 +23,10 @@ class Person():
         value of a number x is the non-negative value of x e.g the absolute value of -2 is 2 and the
         absolute value of 2 is also 2.
         """
-        self.age - other_person.age = difference
+        difference = self.age - other_person.age
         if difference < 0:
             difference = difference*-1
-            
+        print("Age difference is", difference)
         ######################################################
         # Jessie to complete
         ######################################################
