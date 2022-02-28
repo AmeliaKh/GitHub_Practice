@@ -42,18 +42,18 @@ class MathSolver():
         # Helena to complete
         ######################################################
 
-        return math.sqrt(self.square(self.subtract(y1, x1)) + self.square(self.subtract(y2, x2)))
+        return math.sqrt(self.square(self.subtract(x2, x1)) + self.square(self.subtract(y2, y1)))
 
     def subtract(self, a, b):
         ######################################################
         # Allegra to complete
         ######################################################
 
-        return a + b
+        return a - b
 
     def square(self, a):
         ######################################################
         # Allegra to complete
         ######################################################
 
-        return a
+        return a^2
